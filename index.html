@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
+		<title>Infinite Fractals</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Header</h1>
+			<h1>Infinite Fractals</h1>
 		</header>
 			<section id="content">
 				<canvas id="OriginalFractal" data-processing-sources="OriginalFractal.pde">
 				</canvas>
 		    </section>
 	    <footer>
-		    Footer
+		    Place a shape inside itself the number of vertices in the shape times with half size and you get this
+		    </br>
+		    Up: increase recursion depth (default:5)</br>
+		    Down: decrease recursion depth</br>
+		    Left: decrease number of vertices (default:5)</br>
+		    Right: increase number of vertices</br>
+		    "S": stop the fractal from spinning (try if it becomes super slow)</br></br><b>Now who's the one creating fractals</b>
 	    </footer>
 	</body>
 </html>
